@@ -1,0 +1,28 @@
+# Virtual Environments
+venv/
+venv310/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# SECRETS (NEVER PUSH THESE)
+client_secrets.json
+saved_creds.json
+mycreds.json
+
+# Large Files & Executables
+yolo11n.pt
+*.exe
+*.onnx
+
+# Data folders (keep the folder, ignore the images)
+data/crops/*
+data/alerts/*
+!data/crops/.gitkeep
+!data/alerts/.gitkeep
+
+
+auto.crt
+auto.key

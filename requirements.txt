@@ -1,0 +1,7 @@
+opencv-python>=4.10.0
+ultralytics>=8.3.0
+numpy>=1.26.0
+python-dotenv>=1.0.0
+requests>=2.32.0
+transformers>=4.37.2
+einops>=0.8.0
